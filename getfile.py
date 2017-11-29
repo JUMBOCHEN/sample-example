@@ -44,13 +44,39 @@ def client(host, port, filename):
     print('client got', filename, 'at', now())
 
 def serverthread(clientsock):
-    pass
+    sockfile = clientsock.makefile('r')
+    filename = sockfile.readline()[:-1]
+    try:
+        file = open(filename, 'rb')
+        while True:
+            bytes = file.read(blksz)
+            if not bytes: break
+            sent = clientsock.send(bytes)
+            assert sent ==len(bytes)
+    except:
+        print('Error downing file on server:', filename)
+    clientsock.close()
 
 def server(host, port):
-    pass
+    serversock = socket(AF_INET, SOCK_STREAM)
+    serversock.bind(host, port)
+    serversock.listen(5)
+    while True:
+        clientsock, clientaddr = serversock.accpet()
+        print('Server connect by', clientaddr, 'at', now())
+        thread.start_new_thread(serverthread, (clientsock,))
 
 def main(args):
-    pass
+    host = args.get('-host', defaultHost)
+    port = int(args.get('-port',defaultPort))
+    if args.get('-mode') == 'server':
+        if host == 'localhost': host = ''
+        server(host, port)
+    elif args.get('-file'):
+        client(host, port, args['-file'])
+    else:
+        print(helptext)
+
 
 if __name__ == '__main__':
     args = parsecommandline()
