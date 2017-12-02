@@ -1,6 +1,6 @@
 import serial.tools.list_ports
 plist = list(serial.tools.list_ports.comports())
-if len(plist)<=0:
+if len(plist) <= 0:
 	print('没有发现端口')
 else:
 	plist_0 = list(plist[0])
