@@ -443,7 +443,14 @@
       <option name="project" value="LOCAL" />
       <updated>1512200274164</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="版本控制配置文件">
+      <created>1512228556731</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1512228556731</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -491,7 +498,8 @@
     <MESSAGE value="单个目录下查找最大.py文件" />
     <MESSAGE value="扫描标准库目录树，找最大.py文件" />
     <MESSAGE value="版本控制相关配置文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="版本控制相关配置文件" />
+    <MESSAGE value="版本控制配置文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="版本控制配置文件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
