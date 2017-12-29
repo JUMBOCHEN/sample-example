@@ -19,3 +19,4 @@ driver.get_screenshot_as_file("D:\\Python\\github每日一图\\"+text[:10]+".png
 driver.quit()
 
 # successful~
+#最后用pyinstaller打包成EXE
