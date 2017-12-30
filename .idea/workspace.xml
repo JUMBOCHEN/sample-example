@@ -21,7 +21,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebSpider/爬取豆瓣首页图片/爬取的图片/p458880.jpg" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebSpider/爬取豆瓣首页图片/爬取的图片/p509169.jpg" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebSpider/爬取豆瓣首页图片/爬取的图片/p521646.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataVisual/plot_squares.py" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/爬取豆瓣首页图片/爬取的图片/24201216.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/爬取豆瓣首页图片/爬取的图片/24350126.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/爬取豆瓣首页图片/爬取的图片/34760338.jpg" afterPath="" />
@@ -49,8 +48,8 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/爬取豆瓣首页图片/爬取的图片/p509169.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/爬取豆瓣首页图片/爬取的图片/p521646.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataVisual/plot_squares.py" afterPath="$PROJECT_DIR$/DataVisual/plot_squares.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebSpider/爬虫_廖雪峰教程转换为PDF/test.py" afterPath="$PROJECT_DIR$/WebSpider/爬虫_廖雪峰教程转换为PDF/test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/selenium2/github_pic.py" afterPath="$PROJECT_DIR$/selenium2/github_pic.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/树莓派/CatAndMouse.py" afterPath="$PROJECT_DIR$/树莓派/CatAndMouse.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -68,7 +67,7 @@
     <SUITE FILE_PATH="coverage/sample_exampe$bigpy_dir.coverage" NAME="bigpy-dir Coverage Results" MODIFIED="1512197223142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/sample_exampe$drawflower.coverage" NAME="drawflower Coverage Results" MODIFIED="1512913357836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/树莓派" />
     <SUITE FILE_PATH="coverage/sample_exampe$bigpy_dir__1_.coverage" NAME="bigpy-dir (1) Coverage Results" MODIFIED="1512197893495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FileTest" />
-    <SUITE FILE_PATH="coverage/sample_exampe$plot_squares.coverage" NAME="plot_squares Coverage Results" MODIFIED="1514562666484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataVisual" />
+    <SUITE FILE_PATH="coverage/sample_exampe$plot_squares.coverage" NAME="plot_squares Coverage Results" MODIFIED="1514650207978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataVisual" />
     <SUITE FILE_PATH="coverage/sample_exampe$bigpy_tree.coverage" NAME="bigpy-tree Coverage Results" MODIFIED="1512197882801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/sample_exampe$CatAndMouse.coverage" NAME="CatAndMouse Coverage Results" MODIFIED="1513694323100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/树莓派" />
     <SUITE FILE_PATH="coverage/sample_exampe$server.coverage" NAME="server Coverage Results" MODIFIED="1512136516266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UDPTest" />
@@ -83,7 +82,7 @@
       <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebSpider/爬虫_廖雪峰教程转换为PDF/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1134">
+            <state relative-caret-position="513">
               <caret line="47" column="35" lean-forward="false" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
               <folding>
                 <element signature="e#208#247#0" expanded="true" />
@@ -92,23 +91,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddChristmasHat.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AddChristmasHat/AddChristmasHat.py">
+      <file leaf-file-name="plot_squares.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DataVisual/plot_squares.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-135">
-              <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-              <folding>
-                <element signature="e#137#155#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="243">
+              <caret line="57" column="22" lean-forward="false" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="plot_squares.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DataVisual/plot_squares.py">
+      <file leaf-file-name="random.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Program Files (x86)/Python/Python36-32/Lib/random.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="42" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+            <state relative-caret-position="165">
+              <caret line="254" column="0" lean-forward="false" selection-start-line="254" selection-start-column="0" selection-end-line="254" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -207,7 +204,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -215,10 +211,21 @@
               <item name="sample exampe" type="b2602c69:ProjectViewProjectNode" />
               <item name="sample exampe" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="sample exampe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sample exampe" type="462c0819:PsiDirectoryNode" />
+              <item name="AddChristmasHat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sample exampe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sample exampe" type="462c0819:PsiDirectoryNode" />
+              <item name="FileTest" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -523,14 +530,21 @@
       <option name="project" value="LOCAL" />
       <updated>1514036644776</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="数据可视化">
+      <created>1514563100919</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1514563100937</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16817011" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17074743" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -540,7 +554,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970026" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39841688" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39782017" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -579,25 +593,16 @@
     <MESSAGE value="emmmmmm" />
     <MESSAGE value="GitHub主页截图" />
     <MESSAGE value="人脸识别" />
-    <option name="LAST_COMMIT_MESSAGE" value="人脸识别" />
+    <MESSAGE value="数据可视化" />
+    <option name="LAST_COMMIT_MESSAGE" value="数据可视化" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="12" />
+      <option name="time" value="15" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/WebSpider/爬虫_廖雪峰教程转换为PDF/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#208#247#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebSpider/爬虫_廖雪峰教程转换为PDF/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -831,13 +836,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BitarrayTest/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2268">
-          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ExecTest/ExecFile_1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -849,13 +847,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FileTest/bigpy-dir.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -931,9 +922,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/Program Files (x86)/Python/Python36-32/Lib/random.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="254" column="0" lean-forward="false" selection-start-line="254" selection-start-column="0" selection-end-line="254" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AddChristmasHat/AddChristmasHat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2160">
+          <caret line="80" column="18" lean-forward="true" selection-start-line="80" selection-start-column="18" selection-end-line="80" selection-end-column="18" />
+          <folding>
+            <element signature="e#137#155#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BitarrayTest/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1404">
+          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FileTest/bigpy-dir.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/WebSpider/爬虫_廖雪峰教程转换为PDF/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1134">
+        <state relative-caret-position="513">
           <caret line="47" column="35" lean-forward="false" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
           <folding>
             <element signature="e#208#247#0" expanded="true" />
@@ -941,20 +966,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AddChristmasHat/AddChristmasHat.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-135">
-          <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-          <folding>
-            <element signature="e#137#155#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DataVisual/plot_squares.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="42" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+        <state relative-caret-position="243">
+          <caret line="57" column="22" lean-forward="false" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
           <folding />
         </state>
       </provider>
