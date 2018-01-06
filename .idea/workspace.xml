@@ -21,7 +21,8 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebSpider/爬取豆瓣首页图片/爬取的图片/p458880.jpg" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebSpider/爬取豆瓣首页图片/爬取的图片/p509169.jpg" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebSpider/爬取豆瓣首页图片/爬取的图片/p521646.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebSpider/下载2017云栖大会干货/download.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebSpider/下载2017云栖大会干货/download_url.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/selenium2/aliyun_download.py" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/爬取豆瓣首页图片/爬取的图片/24201216.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/爬取豆瓣首页图片/爬取的图片/24350126.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/爬取豆瓣首页图片/爬取的图片/34760338.jpg" afterPath="" />
@@ -52,6 +53,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeChat_jump/last.png" afterPath="$PROJECT_DIR$/WeChat_jump/last.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeChat_jump/play.py" afterPath="$PROJECT_DIR$/WeChat_jump/play.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebSpider/下载2017云栖大会干货/download.py" afterPath="$PROJECT_DIR$/WebSpider/下载2017云栖大会干货/download.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebSpider/爬虫_廖雪峰教程转换为PDF/test.py" afterPath="$PROJECT_DIR$/WebSpider/爬虫_廖雪峰教程转换为PDF/test.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/selenium2/12306.py" afterPath="$PROJECT_DIR$/selenium2/12306.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/树莓派/CatAndMouse.py" afterPath="$PROJECT_DIR$/树莓派/CatAndMouse.py" />
@@ -64,10 +66,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/sample_exampe$aliyun_download.coverage" NAME="aliyun_download Coverage Results" MODIFIED="1515229608946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium2" />
     <SUITE FILE_PATH="coverage/sample_exampe$ExecFile_1.coverage" NAME="ExecFile_1 Coverage Results" MODIFIED="1512192940517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ExecTest" />
     <SUITE FILE_PATH="coverage/sample_exampe$getfile.coverage" NAME="getfile Coverage Results" MODIFIED="1512197215072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/sample_exampe$test.coverage" NAME="test Coverage Results" MODIFIED="1513695927302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WebSpider/爬虫_廖雪峰教程转换为PDF" />
-    <SUITE FILE_PATH="coverage/sample_exampe$download.coverage" NAME="download Coverage Results" MODIFIED="1515080940655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WebSpider/下载2017云栖大会干货" />
+    <SUITE FILE_PATH="coverage/sample_exampe$download.coverage" NAME="download Coverage Results" MODIFIED="1515227877913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WebSpider/下载2017云栖大会干货" />
     <SUITE FILE_PATH="coverage/sample_exampe$ExecuteDemo.coverage" NAME="ExecuteDemo Coverage Results" MODIFIED="1512196080609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ExecTest" />
     <SUITE FILE_PATH="coverage/sample_exampe$bigpy_dir.coverage" NAME="bigpy-dir Coverage Results" MODIFIED="1512197223142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/sample_exampe$drawflower.coverage" NAME="drawflower Coverage Results" MODIFIED="1512913357836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/树莓派" />
@@ -87,22 +90,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebSpider/爬虫_廖雪峰教程转换为PDF/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1134">
-              <caret line="47" column="35" lean-forward="false" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
-              <folding>
-                <element signature="e#208#247#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="plot_squares.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DataVisual/plot_squares.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1539">
+            <state relative-caret-position="0">
               <caret line="57" column="37" lean-forward="false" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
               <folding />
             </state>
@@ -124,7 +115,7 @@
       <file leaf-file-name="github_pic.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/selenium2/github_pic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
+            <state relative-caret-position="378">
               <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
               <folding>
                 <element signature="e#123#153#0" expanded="true" />
@@ -146,8 +137,30 @@
       <file leaf-file-name="download.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WebSpider/下载2017云栖大会干货/download.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+            <state relative-caret-position="594">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding>
+                <element signature="e#100#131#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="download_url.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebSpider/下载2017云栖大会干货/download_url.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="0" column="647" lean-forward="true" selection-start-line="0" selection-start-column="647" selection-end-line="0" selection-end-column="647" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="aliyun_download.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/selenium2/aliyun_download.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="15" column="46" lean-forward="true" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -213,7 +226,9 @@
         <option value="$PROJECT_DIR$/WeChat_jump/playgame.py" />
         <option value="$PROJECT_DIR$/WeChat_jump/play.py" />
         <option value="$PROJECT_DIR$/selenium2/12306.py" />
+        <option value="$PROJECT_DIR$/WebSpider/下载2017云栖大会干货/download_url.txt" />
         <option value="$PROJECT_DIR$/WebSpider/下载2017云栖大会干货/download.py" />
+        <option value="$PROJECT_DIR$/selenium2/aliyun_download.py" />
       </list>
     </option>
   </component>
@@ -260,6 +275,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -270,12 +286,13 @@
             <path>
               <item name="sample exampe" type="b2602c69:ProjectViewProjectNode" />
               <item name="sample exampe" type="462c0819:PsiDirectoryNode" />
-              <item name="selenium2" type="462c0819:PsiDirectoryNode" />
+              <item name="WebSpider" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sample exampe" type="b2602c69:ProjectViewProjectNode" />
               <item name="sample exampe" type="462c0819:PsiDirectoryNode" />
               <item name="WebSpider" type="462c0819:PsiDirectoryNode" />
+              <item name="下载2017云栖大会干货" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sample exampe" type="b2602c69:ProjectViewProjectNode" />
@@ -287,7 +304,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -316,7 +332,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.download">
+  <component name="RunManager" selected="Python.aliyun_download">
     <configuration name="12306" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -331,6 +347,24 @@
       <module name="sample exampe" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/selenium2/12306.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="aliyun_download" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/selenium2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="sample exampe" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/selenium2/aliyun_download.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -389,38 +423,20 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="playgame" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WeChat_jump" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="sample exampe" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WeChat_jump/playgame.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.github_pic" />
-      <item index="1" class="java.lang.String" itemvalue="Python.playgame" />
-      <item index="2" class="java.lang.String" itemvalue="Python.play" />
-      <item index="3" class="java.lang.String" itemvalue="Python.12306" />
-      <item index="4" class="java.lang.String" itemvalue="Python.download" />
+      <item index="1" class="java.lang.String" itemvalue="Python.play" />
+      <item index="2" class="java.lang.String" itemvalue="Python.12306" />
+      <item index="3" class="java.lang.String" itemvalue="Python.download" />
+      <item index="4" class="java.lang.String" itemvalue="Python.aliyun_download" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.download" />
-        <item index="1" class="java.lang.String" itemvalue="Python.12306" />
-        <item index="2" class="java.lang.String" itemvalue="Python.github_pic" />
-        <item index="3" class="java.lang.String" itemvalue="Python.play" />
-        <item index="4" class="java.lang.String" itemvalue="Python.playgame" />
+        <item index="0" class="java.lang.String" itemvalue="Python.aliyun_download" />
+        <item index="1" class="java.lang.String" itemvalue="Python.download" />
+        <item index="2" class="java.lang.String" itemvalue="Python.12306" />
+        <item index="3" class="java.lang.String" itemvalue="Python.github_pic" />
+        <item index="4" class="java.lang.String" itemvalue="Python.play" />
       </list>
     </recent_temporary>
   </component>
@@ -627,22 +643,30 @@
       <option name="project" value="LOCAL" />
       <updated>1514990244547</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="下载干货">
+      <created>1515081248560</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1515081248560</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18621135" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328594" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5722071" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32833788" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970026" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18878865" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32833788" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39782017" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -653,7 +677,6 @@
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="92" y="92" width="1182" height="584" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -687,46 +710,16 @@
     <MESSAGE value="随机漫步" />
     <MESSAGE value="跳一跳" />
     <MESSAGE value="12306自动买票" />
-    <option name="LAST_COMMIT_MESSAGE" value="12306自动买票" />
+    <MESSAGE value="下载干货" />
+    <option name="LAST_COMMIT_MESSAGE" value="下载干货" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="18" />
+      <option name="time" value="22" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/WebSpider/爬虫_廖雪峰教程转换为PDF/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#208#247#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files (x86)/Python/Python36-32/Lib/site-packages/requests/api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1512">
-          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files (x86)/Python/Python36-32/Lib/site-packages/requests/sessions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8532">
-          <caret line="344" column="0" lean-forward="false" selection-start-line="344" selection-start-column="0" selection-end-line="344" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NetworkScripts/getfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NetworkScripts/getfile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -978,7 +971,7 @@
         <state relative-caret-position="1134">
           <caret line="47" column="35" lean-forward="false" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
           <folding>
-            <element signature="e#208#247#0" expanded="true" />
+            <element signature="e#208#247#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -986,7 +979,7 @@
     <entry file="file://$PROJECT_DIR$/WeChat_jump/playgame.py" />
     <entry file="file://$PROJECT_DIR$/DataVisual/plot_squares.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1539">
+        <state relative-caret-position="0">
           <caret line="57" column="37" lean-forward="false" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
           <folding />
         </state>
@@ -1022,16 +1015,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/selenium2/github_pic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-          <folding>
-            <element signature="e#123#153#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebSpider/爬取豆瓣首页图片/SpiderDouban.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1048,11 +1031,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/selenium2/github_pic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <folding>
+            <element signature="e#123#153#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebSpider/下载2017云栖大会干货/download.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebSpider/下载2017云栖大会干货/download_url">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium2/aliyun_download.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="46" lean-forward="true" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebSpider/下载2017云栖大会干货/download_url.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="0" column="647" lean-forward="true" selection-start-line="0" selection-start-column="647" selection-end-line="0" selection-end-column="647" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/WebSpider/下载2017云栖大会干货/download.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-          <folding />
+        <state relative-caret-position="594">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="e#100#131#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
