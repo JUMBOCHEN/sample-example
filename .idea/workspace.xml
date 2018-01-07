@@ -50,9 +50,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeChat_jump/0.png" afterPath="$PROJECT_DIR$/WeChat_jump/0.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeChat_jump/last.png" afterPath="$PROJECT_DIR$/WeChat_jump/last.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeChat_jump/play.py" afterPath="$PROJECT_DIR$/WeChat_jump/play.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebSpider/爬虫_廖雪峰教程转换为PDF/test.py" afterPath="$PROJECT_DIR$/WebSpider/爬虫_廖雪峰教程转换为PDF/test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/树莓派/CatAndMouse.py" afterPath="$PROJECT_DIR$/树莓派/CatAndMouse.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -87,11 +87,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="plot_squares.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="plot_squares.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DataVisual/plot_squares.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="55" column="17" lean-forward="false" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+            <state relative-caret-position="216">
+              <caret line="56" column="14" lean-forward="true" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="3" column="3" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -170,6 +180,7 @@
         <option value="$PROJECT_DIR$/WebSpider/下载2017云栖大会干货/download.py" />
         <option value="$PROJECT_DIR$/selenium2/aliyun_download.py" />
         <option value="$PROJECT_DIR$/树莓派/CatAndMouse.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -222,11 +233,6 @@
             <path>
               <item name="sample exampe" type="b2602c69:ProjectViewProjectNode" />
               <item name="sample exampe" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sample exampe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sample exampe" type="462c0819:PsiDirectoryNode" />
-              <item name="DataVisual" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -586,7 +592,14 @@
       <option name="project" value="LOCAL" />
       <updated>1515247573841</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="cat and mouse">
+      <created>1515311192048</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1515311192048</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -623,7 +636,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="找出目录最大.py文件" />
     <MESSAGE value="找出目录最大.py文件(扫描标准库目录)" />
     <MESSAGE value="找出目录最大.py文件(扫描标准库目录树)" />
     <MESSAGE value="一个简单的python文件服务器" />
@@ -648,7 +660,8 @@
     <MESSAGE value="12306自动买票" />
     <MESSAGE value="下载干货" />
     <MESSAGE value="spider" />
-    <option name="LAST_COMMIT_MESSAGE" value="spider" />
+    <MESSAGE value="cat and mouse" />
+    <option name="LAST_COMMIT_MESSAGE" value="cat and mouse" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -944,14 +957,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebSpider/下载2017云栖大会干货/download.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
@@ -1008,8 +1013,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DataVisual/plot_squares.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="55" column="17" lean-forward="false" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+        <state relative-caret-position="216">
+          <caret line="56" column="14" lean-forward="true" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="3" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
           <folding />
         </state>
       </provider>
